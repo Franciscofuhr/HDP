@@ -1,0 +1,52 @@
+.container{
+    background-image: url('https://s3.envato.com/files/7ba59abf-a544-43cc-82a1-f30e648ef11f/inline_image_preview.jpg');
+    min-height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    color: white;
+    font-size: 35px;
+    font-family: 'Jockey One', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.container-endgame{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+}
+.winner{
+    color: white;
+    font-size: 65px;
+    font-family: 'Jockey One', sans-serif;
+    background-color: rgba(200, 38, 191, 0.4);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.container-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.btn-endGame{
+    margin: 15px;
+    background-color: #2EC0CF;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Jockey One', sans-serif;
+    transition: all 500ms;
+}
+.btn-endGame:hover{
+    transform: scale(1.07);
+}

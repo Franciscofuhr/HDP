@@ -1,0 +1,23 @@
+.backgroundRooms{
+    background-image: url('https://s3.envato.com/files/7ba59abf-a544-43cc-82a1-f30e648ef11f/inline_image_preview.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.contenedorArriba{
+    padding-top: 20px;
+}
+
+.hdp{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 45px;
+    color:white;
+    margin-top: 20px;
+}
+.logohover{
+    cursor: pointer;
+}

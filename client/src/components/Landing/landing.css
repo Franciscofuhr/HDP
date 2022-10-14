@@ -1,0 +1,130 @@
+.contenedorArriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Jockey One', sans-serif;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+.landing{
+    /* background-image: url('https://s3.envato.com/files/7ba59abf-a544-43cc-82a1-f30e648ef11f/inline_image_preview.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../utils/Fondopagina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #D9D9D9 ;
+    margin: 0;
+    padding: 0;
+}
+.loguito{
+    max-width: 50px;
+    transition: all 500ms;
+}
+.loguito:hover{
+    transform: scale(1.05);
+}
+
+.contenedorDivs{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.monito{
+    height: 100%;
+    transform: scaleX(-1);
+    justify-content: flex-end;
+    align-items: flex-end;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.Bottom-Link{
+    background: rgba(41, 45, 89, 1);
+    border-radius: 40px;
+    width: 410px;
+    height: 50px;
+    margin: 7px;
+    color: white;
+    font-size: large;
+    border: 0;
+    margin-bottom: 40px;
+    box-shadow: inset;
+    transition: all 500ms;
+}
+.Bottom-Link:hover{
+  transform: scale(1.05);
+}
+
+.Bottom-sponsor{
+    background: #2EC0CF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 60px;
+    width: 250px;
+    margin: 7px;
+    color: white;
+    font-size: large;
+    border-color: transparent
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    color: white;
+    margin-left: 15%;
+    height: 30%;
+    font-family: 'Jockey One', sans-serif;
+    text-align: left;
+}
+.subTitulo{
+    font-size: 30px;
+    color: #2EC0CF;
+    font-family: 'Jockey One', sans-serif;
+    text-align: left;
+    margin-left: 15%;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.Content-Bottoms{
+    /* background: #2EC0CF; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdp{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 45px;
+    color:white;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}

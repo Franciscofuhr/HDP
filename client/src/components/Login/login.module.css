@@ -1,0 +1,100 @@
+.backgroundlogin{
+    background-image: url('https://s3.envato.com/files/7ba59abf-a544-43cc-82a1-f30e648ef11f/inline_image_preview.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.contenedorAbajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.entrar{
+    background-color: #b71fc5ad;
+    padding: 50px;
+    border-radius:20px;
+}
+
+.input{
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+    font-weight: 700;
+    color:black !important;
+    margin-top: 10px;
+    width: 250px;
+}
+
+.monito{
+    height: 100%;
+    margin-left: 100px;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0px;
+    
+}
+
+.btncontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background-color: #2EC0CF; 
+    border: none;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Jockey One', sans-serif;
+    border-radius: 20px;
+    padding-top:7px;
+    padding-bottom:7px;
+    font-size: 20px;
+
+}
+.modalTitle{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 30px;
+
+}
+.buttonCrear{
+    background-color: #2EC0CF;
+    border: #2EC0CF; 
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buttonCerrar{ 
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.inputpsw{
+    margin-top: 15px;
+    font-family: 'Jockey One', sans-serif;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 850px) {
+    .monito{
+        display: none;
+    }
+
+    .contenedorAbajo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,114 @@
+.waitingContainer{
+    background-color: rgba(183, 31, 197, 0.45);
+    height: 100%;
+    width: 100%;
+    border-radius:20px;
+}
+.containerAbajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 86%;
+}
+
+.jugadoresContainer{
+    display: flex;
+    justify-content: flex-start;
+    height: 350px;
+    /* flex-direction: column; */
+}
+
+.jugadores{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 30px;
+    color:white;
+    margin-top: 15px;
+}
+
+.monitoContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left:15px;
+}
+.monito{
+    width:270px;
+    
+}
+
+.playerTag{
+    background-color: rgba(46, 192, 207, 0.7);
+    width: 250px;
+    max-height: 60px;
+    margin: 7px;
+    margin-right: 0px;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* flex-direction: column; */
+}
+
+.username{
+    color:white;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.31) ;
+    height: 80px;
+    width: 150px;
+    border-radius: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-family: 'Jockey One', sans-serif;
+    color:white;
+    font-size: 25px;
+    transition: all .5s;
+}
+
+.btn:hover{
+    transform: scale(0.95);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+ul {
+    list-style: none;
+    margin:0px;
+}
+
+
+.contenedorScroll{
+    /* margin: 100px 0 0 0,; */
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.contenedorScroll::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  /* .contenedorScroll::-webkit-scrollbar-track {
+    background: rgba(183, 31, 197, 0.45);
+  } */
+
+  .contenedorScroll::-webkit-scrollbar-thumb {
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+  }
+
+  .scroll{
+    height: auto;
+    background-color: rgba(217, 217, 217, 1);
+}

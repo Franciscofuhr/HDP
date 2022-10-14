@@ -1,0 +1,111 @@
+.backgroundchat{
+    height: 100%;
+    width: 100%;
+    margin:0 
+}
+.chatInfo{
+    background-color: #FED048;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 60px;
+    
+}
+
+.displayChat{
+    overflow-y: scroll;
+    height: 75%;
+    max-height: 81vh;
+    padding: .5em; 
+    background-color: #FFFFFF;
+}
+.displayChat::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    /* background: #68a9cfa0; */
+    border-radius: 4px;
+}
+.displayChat::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 4px;
+}
+.displayChat::-webkit-scrollbar-thumb:hover {
+    /* background: #68a9cfa0; */
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.displayChat::-webkit-scrollbar-thumb{
+    background-color: #FED048;
+    border-radius: 4px;
+}
+
+.chatmessagecontainer{
+    padding-bottom: 110px;
+    padding: 8px;
+    justify-content: space-around;
+    background-color: #ffffff;
+  
+}
+.chatmessage{
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.inputchat{
+    width: 80%;
+    background-color: #D9D9D9;
+    border: none;
+    height: 45px;
+
+    
+}
+.inputchat:focus{
+    outline: none;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.messageSelf{
+    display: flex;
+    
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+.messageSelfContainer{
+    
+    display: flex;
+    padding: 14px;
+    border-radius: 30px;
+    
+    
+}
+.messageOther{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.messageOtherContainer{
+    display: flex;
+    padding: 14px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    
+}
+.message{
+   max-width: 160px;
+    word-break: break-word;
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding: 0 5px;
+    
+}
+.messageContainer{
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+.roomCode{
+    font-family: 'Jockey One', sans-serif;
+    font-size: 35px;
+}

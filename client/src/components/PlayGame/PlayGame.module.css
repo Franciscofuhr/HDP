@@ -1,0 +1,108 @@
+.blackCard {
+    background-image: url('../../image/fondoBlackCard.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #212350;
+    width: 250px;
+    height: 380px;
+    border-radius: 20px;
+    z-index: 1;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blackCardText {
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+    height: 270px;
+}
+
+.monitoYnombre {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end; */
+    width: 250px;
+    /* height: 180px; */
+    /* position: static; */
+}
+
+.nombreKing {
+    color: white;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15px;
+}
+
+.tag {
+    background-color: green;
+
+}
+
+
+
+
+ .Whitecards{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+    width: 65%;
+    height: 330px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow-y: hidden; 
+    word-break: break-word;
+    overflow-x: auto;
+    margin-bottom: 40px;
+    /* margin-left: 50px; */
+
+} 
+
+.Whitecards::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    background: #68a9cfa0;
+    border-radius: 4px;
+}
+.Whitecards::-webkit-scrollbar-track {
+    /* background: #e1e1e1; */
+    border-radius: 4px;
+}
+.Whitecards::-webkit-scrollbar-thumb:hover {
+    /* background: #68a9cfa0; */
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.Whitecards::-webkit-scrollbar-thumb{
+    background-color: #00b1d0;
+    border-radius: 4px;
+}
+
+
+.selectCards{
+    height: 50px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.textCard{
+    width: 100%;
+    max-width: 200px;
+    word-break: break-word;
+    height: 100%;
+    white-space:initial;
+}
+.chatAndCards{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+}
